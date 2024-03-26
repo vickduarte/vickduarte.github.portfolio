@@ -19,6 +19,7 @@
 /* General */
 .highlight {
     color: var(--main-color);
+    color:#899ad5;
 }
 
 /* Containers */
@@ -44,7 +45,6 @@
     padding: 50px;
     
   }
-
 
 /* Bio container */
 #bio-container h2 {
