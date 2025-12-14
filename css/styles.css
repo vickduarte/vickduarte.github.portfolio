@@ -229,19 +229,16 @@
 }
 
 #skills-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 caixas por linha */
+    gap: 35px;
     margin-top: 25px;
-    justify-content:space-evenly;
-
 }
 
 .skills-box {
-    flex: 1 1 33%;
-    max-width: 33%;
-    margin-bottom: 35px;
-    margin-right: px;
+    width: 100%;
 }
+
 
 .skills-title {
     font-size: 24px;
